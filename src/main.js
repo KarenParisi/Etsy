@@ -4,23 +4,24 @@ import { Router, Route, browserHistory, hashHistory } from 'react-router';
 
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
-import injectTapEventPlugin from 'react-tap-event-plugin';
-// Needed for onTouchTap
-// http://stackoverflow.com/a/34015469/988941
-injectTapEventPlugin();
+// import injectTapEventPlugin from 'react-tap-event-plugin';
+// // Needed for onTouchTap
+// // http://stackoverflow.com/a/34015469/988941
+// injectTapEventPlugin();
 
-// Layout
-import ExampleLayout from 'layout/example';
+// // Layout
+// import ExampleLayout from 'layout/example';
+// import data from "ui/data";
+// // UI
+import MainApp from 'ui/MainApp';
 
-// UI
-import ExampleComponent from 'ui/example';
+var style = require("layout/styles.scss")
+
 
 const Site = (
   <MuiThemeProvider>
     <Router history={hashHistory}>
-      <Route component={ExampleLayout}>
-        <Route path="/" component={ExampleComponent} />
-      </Route>
+        <Route path="/" component={MainApp} />
     </Router>
   </MuiThemeProvider>
 );

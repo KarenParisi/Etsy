@@ -1,0 +1,27 @@
+MainApp 
+	top bar 
+		nav bar
+	content page-background
+
+		category side bar
+		refine serchcom bar
+		Imgaes - whiskey boxes
+		bottom text box
+		subscribe box
+
+
+Home & Living
+Art & Collectibles
+Weddings
+Clothing
+Paper & Party Supplies
+Accessories
+Jewelry
+Craft Supplies & Tools
+Bags & Purses
+Bath & Beauty
+Books, Movies & Music
+Shoes
+Toys & Games
+Electronics & Accessories
+Pet Supplies
