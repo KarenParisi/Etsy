@@ -1,23 +1,43 @@
-#label {
-	font-size: 35px;
+
+
+#etsy {
+	font-size: 45px;
 	align: left;
 	display: inline;;
 	width:125px;
 	margin-right: 5px;
 	text-height:70px;
 	vertical-align: middle;
+	color: #ee7621;
+	font-family: Times New Roman;
 
 }
-
-input {
+#signin {
+	background-color: white;
+	color:#53868b;
+	border:solid 1px #53868b;
+	padding: 10px;
+	font-size:12px;
+	border-radius:4px;
+}
+#topinput {
 	width:500px;
 	height:35px;
+	background-color: #f5f5dc;
+	border: 1px solid #eed5b7;
 
 }
 
-#topbutton {
+
+#searchbutton {
 	font-size: 10px;
-	padding: 15px;
+	padding: 11px;
+	background-color:#53868b;
+	color:white;
+	font-size: 15px;
+	border:none;
+	font-family: Tahoma;
+	
 
 }
 
@@ -26,6 +46,8 @@ input {
 	list-style: none;
 	font-size: 15px;
 	margin-right: 15px;
+	font-family: Tahoma;
+	color:#53868b;
 	
 }
 
@@ -44,12 +66,14 @@ Hr {
 	list-style: none;
 	font-size: 15px;
 	margin-right: 15px;
+	font-family: Tahoma;
+	color:#53868b;
 
 }
 
 #background {
-	background-color: grey;
-	height: 800px;
+	background-color: #f5f5dc;
+	height: 1800px;
 	position:relative;
 }
 
@@ -61,7 +85,6 @@ img {
 }
 
 #container {
-	border: solid 1px red;
 	width:1100px;
 	height:800px;
 	position: absolute;
@@ -69,9 +92,177 @@ img {
 	right:0px;
 }
 
+
 #images li {
 	display: inline-block;
 	list-style: none;
 	margin-right: 15px;
 	
 }
+
+#topsidebarlist li {
+	list-style: none;
+	font-size: 15px;
+	margin-bottom: 10px;
+	font-family: Tahoma;
+	color:#53868b;
+}
+
+#topsidelistdiv {
+	height: 475px;
+	width: 225px;
+	background-color: white;
+	border-radius: 5px;
+	border: solid 1px #eed5b7;
+
+}
+
+#topsidelistdiv p {
+	padding-left: 15px;
+}
+
+#topsidediv {
+	margin-left: 50px;
+
+}
+
+#topp {
+	padding-top: 20px;
+	
+}
+
+#botsidebarlist li {
+	list-style: none;
+	font-size: 15px;
+	font-family: Tahoma;
+	color:#53868b;
+	
+}
+
+#botsidebarlist li input {
+	width:25px;
+	margin-left:10px;
+	
+}
+
+form li {
+	font-family: Tahoma;
+	color:#53868b;
+}
+p {
+	font-family: Tahoma;
+	
+}
+#botsidelistdiv {
+	height: 600px;
+	width: 225px;
+	background-color: white;
+	border-radius: 5px;
+	border: solid 1px #eed5b7;
+}
+#botsidelistdiv p {
+	margin-left: 10px;
+
+}
+
+#botsidediv {
+	margin-left: 50px;
+
+}
+
+#sideline {
+	margin-left:10px;
+	margin-right:10px;
+
+}
+#priceinput {
+	width: 50px;
+	height: 25px;
+}
+
+#pricesubmit {
+	font-size: 15px;
+	padding:10px;
+	margin-left: 10px;
+	
+}
+.priceinput {
+	margin-left:10px;
+}
+.priceinput2 {
+	margin-left:4px;
+}
+
+#sidebuttons li {
+	display:inline;
+	list-style: none;
+
+}
+
+#sidebuttons p {
+	margin-left: 10px;
+}
+
+#sidebuttons  {
+	margin-left: 10px;
+}
+
+#col1 {
+	background-color:red;
+}
+#col2 {
+	background-color:orange;
+}
+#col3 {
+	background-color:yellow;
+}
+#col4 {
+	background-color:green;
+}
+#col5 {
+	background-color:blue;
+}
+#col6 {
+	background-color:purple;
+}
+#col7 {
+	background-color:black;
+}
+#col8 {
+	background-color:white;
+}
+
+.colorbuttons {
+	border-radius: 2px;
+	border: 1px solid grey;
+	height: 20px;
+	width:20px;
+	margin-right:1px;
+}
+#icon {
+	height: 30px;
+	width:30px;
+	margin-right:auto;
+	margin-left:auto;
+	display:block;
+
+}
+#cart p {
+	font-size: 11px;
+	color: grey;
+	line-height: 0px;
+	text-align:center;
+}
+#cart {
+	float:right;
+	width: 50px;
+	margin-top: -10px;
+	border-left: solid 1px grey; 
+
+}
+
+#country {
+	width: 200px;
+	height:100px,
+}
+

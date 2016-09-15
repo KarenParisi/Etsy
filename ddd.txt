@@ -2,26 +2,45 @@ MainApp
 	top bar 
 		nav bar
 	content page-background
-
-		category side bar
-		refine serchcom bar
 		Imgaes - whiskey boxes
+		Top sidebar
+		Bottom sidebar
+
+		refine serchcom bar
 		bottom text box
 		subscribe box
 
 
-Home & Living
-Art & Collectibles
-Weddings
-Clothing
-Paper & Party Supplies
-Accessories
-Jewelry
-Craft Supplies & Tools
-Bags & Purses
-Bath & Beauty
-Books, Movies & Music
-Shoes
-Toys & Games
-Electronics & Accessories
-Pet Supplies
+
+
+
+
+
+
+var newArray = data.results.filter(function(result){
+if (result.title.indexOf("Whiskey") !== -1) {
+return result;
+} else { 
+return null;
+}
+})
+newArray  returns 20 objects
+
+map for;
+
+Image:  results.Images.url_75x75
+Title:  results.Shop.title
+Shop:  results.Shop.shop_name
+Price:  results.price
+
+
+
+
+
+returns 20 objects....
+[ObjectImages: Array[1]Shop: Objectcategory_id: 68930688category_path: Array[3]category_path_ids: Array[3]creation_tsz: 1473969860currency_code: "USD"description: "100% genuine leather soft sole baby/ toddler moccasins. Moccasins have an elastic around the ankle for a perfect snug fit. Flats have a soft suede lace to tie for a perfect fit. Please measure foot and add half an inch for a perfect fit with a perfect amount of growing room. I can also make in between sizes as well .25&quot; and .75&quot;. Order size under and leave note in notes if you want it to be in between. ↵↵Approximate size chart: ↵↵4&quot;0-3 months ↵4.5&quot; 3-6 month ↵5&quot; size 4 ↵5.5&quot; size 5/6 ↵6&quot; size 7/8 ↵6.5&#39; size 9 ↵7&quot; size 10/11↵↵TURN AROUND TIME IS 3 DAYS TO 2 WEEKS"ending_tsz: 1484514260featured_rank: nullfile_data: ""has_variations: trueis_customizable: falseis_digital: falseis_private: falseis_supply: "false"item_dimensions_unit: "in"item_height: nullitem_length: nullitem_weight: nullitem_weight_units: nullitem_width: nulllanguage: "en-US"last_modified_tsz: 1473969860listing_id: 294479461materials: Array[0]non_taxable: falsenum_favorers: 18occasion: nulloriginal_creation_tsz: 1463686307price: "40.00"processing_max: 10processing_min: 5quantity: 12recipient: nullshipping_template_id: 9796494259shop_section_id: 18895864state: "active"state_tsz: 1472518842style: nulltags: Array[0]taxonomy_id: 1505taxonomy_path: Array[3]title: "Whiskey Flat"url: "https://www.etsy.com/listing/294479461/whiskey-flat?utm_source=theironyardteaching&utm_medium=api&utm_campaign=api"used_manufacturer: falseuser_id: 37671535views: 147when_made: "made_to_order"who_made: "i_did"__proto__: Object,		
+
+
+
+
+

@@ -8,14 +8,17 @@ export default React.createClass({
 					<ul id="toplist">
 						<li> Sell on Etsy </li>
 						<li> Register </li>
-						<li> <button id="singnin"> Sign In </button> </li>
-						<li> Cart </li>
+						<li> <button id="signin"> Sign In </button> </li>
+						<div id="cart">
+							<img id="icon" src="https://d30y9cdsu7xlg0.cloudfront.net/png/5641-200.png" />
+							<p> Cart </p>
+						</div>
 					</ul>
 				</div>
 				<div id="topdiv">
 					<form>
-						<p id="label"> Etsy </p> <input type="text" name="topsearch" /> 
-						<button id="topbutton"> Search </button>
+						<p id="etsy"> Etsy </p> <input id="topinput" type="text" name="topsearch" /> 
+						<button id="searchbutton"> Search </button>
 					</form>
 					
 				</div>
