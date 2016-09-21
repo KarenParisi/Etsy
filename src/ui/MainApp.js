@@ -5,7 +5,9 @@ import TopBar from "ui/TopBar";
 import ContentPg from "ui/ContentPg";
 
 
+
 export default React.createClass({
+	
 	render: function () {
 		return (
 			<div>

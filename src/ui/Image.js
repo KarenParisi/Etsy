@@ -1,16 +1,17 @@
 import React from 'react';
-import Images from "ui/Images";
 import { Link } from "react-router";
 import { Router, Route, browserHistory, hashHistory } from 'react-router';
-
+import { render } from 'react-dom';
 
 export default React.createClass({
 	render: function () {
 		return (
-			{this.props.data.map(function(image, i){
-					return <Images key={i} id={image.listing_id} src={image.Images.url_75x75} />
-					})}
-			
+			<div className="innercontainer"> 
+				<ul>
+					<li> <img src={this.props.src} /> <div id="caption"><p className="caption">TEXT</p> </div></li>
+
+				</ul>
+			</div>
 		)
 	}
 })
